@@ -9,7 +9,7 @@ import Skills from './containers/skills'
 import Portfolio from './containers/portfolio'
 import Contact from './containers/contact'
 import Navbar from './components/navBar'
-import particles from './utils.js/particles';
+import particles from './utils/particles';
 function App() {     
   const location=useLocation();
   console.log(location);
