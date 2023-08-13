@@ -1,4 +1,4 @@
-import './styles.scss';
+import "./styles.scss";
 
 const PageHeaderContent = (props) => {
   const { headerText, icon } = props;
@@ -10,6 +10,5 @@ const PageHeaderContent = (props) => {
     </div>
   );
 };
-
 
 export default PageHeaderContent;
