@@ -16,7 +16,12 @@ const data = [
   {
     label: "SKILLS",
     to: "/skills",
-  },
+  }, 
+  {   
+    label:"PORTFOLIO",
+    to:"/portfolio",
+    
+  },   
   {
     label: "RESUME",
     to: "/resume",
