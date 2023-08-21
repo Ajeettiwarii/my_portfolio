@@ -48,7 +48,7 @@ export default {
         default: "bounce",
       },
       random: false,
-      speed: 6,
+      speed: 5,
       straight: false,
     },
     number: {
@@ -56,13 +56,13 @@ export default {
         enable: true,
         area: 800,
       },
-      value: 80,
+      value: 200,
     },
     opacity: {
       value: 0.5,
     },
     shape: {
-      type: "circle",
+      type:"circle",
     },
     size: {
       value: { min: 1, max: 5 },

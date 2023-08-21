@@ -12,32 +12,32 @@ import { useState } from "react";
 const portfolioData = [
   {
     id: 2,
-    name: "Ecommerce",
+    name: "File Sharing",
     image: ImageOne,
     link: "",
   },
   {
-    id: 3,
-    name: "Notes App",
+    id: 2,
+    name: "Ecommerce",
     link: "",
     image: ImageTwo,
   },
   {
-    id: 2,
-    name: "Supplier Design",
+    id: 3,
+    name: "Calculator",
     image: ImageThree,
     link: "",
   },
   {
-    id: 2,
-    name: "Todo App",
+    id: 3,
+    name: "Educlub",
     image: ImageFour,
 
     link: "",
   },
   {
-    id: 3,
-    name: "Shopping cart design",
+    id: 2,
+    name: "Blog App",
     image: ImageFive,
     link: "",
   },
@@ -50,7 +50,7 @@ const filterData = [
   },
   {
     filterId: 2,
-    label: "Developement",
+    label: "Full Stack",
   },
   {
     filterId: 3,

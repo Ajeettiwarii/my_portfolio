@@ -1,6 +1,7 @@
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
-import PageHeaderContent from "../../components/PageHeaderContent";
+// import PageHeaderContent from "../../components/PageHeaderContent"; 
+import PageHeaderContent from "../../components/pageHeaderContent";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
 import { DiApple, DiAndroid } from "react-icons/di";
@@ -51,7 +52,7 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Front End Developer</h3>
+            <h3>Full Stack Developer</h3>
             <p>{jobSummary}</p>
           </Animate>
 

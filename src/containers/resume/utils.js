@@ -1,28 +1,23 @@
 export const data = {
     experience: [
       {
-        title: "Consultant",
-        subTitle: "Miami, FL",
+        title: "Smart India Hackathon, Finalist-2022,",
+        subTitle: "Easy Quit",
         description:
-          " User Experience, Visual Design",
+          " Awareness regarding Nasha Mukt Bharat Abhiyan (NMBA).",
       },
-      {
-        title: "Senior Consultant",
-        subTitle: "London, UK",
-        description:
-          "Web development, Databases, Backend developement",
-      },
-      {
-        title: "Project Manager",
-        subTitle: "Bangalore, INDIA",
-        description:
-          "Creative Direction Project Management, Team Leading",
-      },
+      // {
+      //   title: "Senior Consultant",
+      //   subTitle: "London, UK",
+      //   description:
+      //     "Web development, Databases, Backend developement",
+      // },
+     
     ],
     education: [
       {
-        title: "Secondary",
-        subTitle: "ABC School",
+        title: "B.Tech",
+        subTitle: "Indore Institute of science and technology",
         description:
           "10th Grade",
       },
