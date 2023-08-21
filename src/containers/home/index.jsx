@@ -2,12 +2,13 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   const navigate = useNavigate();
 
   const handleNavigateToContactMePage = () => {
-    navigate("/contact"); 
+    navigate("/contact");
   };
 
   return (
@@ -31,7 +32,17 @@ const Home = () => {
         }}
       >
         <div className="home__contact-me">
-          <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+          <button onClick={handleNavigateToContactMePage}>
+            Download resume
+          </button>
+        </div>
+        <div className="home_icons">
+          <div className="home_icons_icon">
+            <FaLinkedin style={{ fontSize: "3.5rem" }} />
+          </div>
+          <div className="home_icons_icon">
+            <FaGithub style={{ fontSize: "3.5rem" }} />
+          </div>
         </div>
       </Animate>
     </section>
