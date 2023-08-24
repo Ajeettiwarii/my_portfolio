@@ -1,5 +1,5 @@
 import React from "react";
-import PageHeaderContent from "../../components/pageHeaderContent";
+import PageHeaderContent from "../../components/PageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
