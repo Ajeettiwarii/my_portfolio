@@ -11,7 +11,7 @@ const data = [
     to: "/",
   },
   {
-    label: "ABOUT ME",
+    label: "ABOUT",
     to: "/about",
   },
   {
