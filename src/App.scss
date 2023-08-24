@@ -1,7 +1,12 @@
 .App{
   height: 100%;
-
+  // overflow-x: hidden;
+  // overflow-y: hidden;
+  -ms-overflow-style: none;
   &__main-page-content{
-      height: calc(100% - 80px);
+    height: calc(100% - 80px);
   }
+}
+.App::-webkit-scrollbar{
+  display: hidden;
 }

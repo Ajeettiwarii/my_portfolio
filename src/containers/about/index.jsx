@@ -4,21 +4,14 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
-import { DiApple, DiAndroid } from "react-icons/di";
-import { FaDev, FaDatabase } from "react-icons/fa";
+import { DiApple, DiAndroid, DiMongodb } from "react-icons/di";
+import { FaDev, FaDatabase, FaReact, FaNode } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 
 const personalDetails = [
   {
     label: "Name",
     value: "Ajeet Tiwari",
-  },
-  {
-    label: "Age",
-    value: "21",
-  },
-  {
-    label: "Address",
-    value: "India",
   },
   {
     label: "Email",
@@ -31,7 +24,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "I am a final year student pursuing a B.Tech in IT from IIST Indore. I am passionate about coding and have a particular interest in full stack development using the MERN stack. Additionally, I have a strong understanding of data structures and algorithms"
+"I'm thrilled to introduce myself as a final-year B.Tech IT student at IIST Indore. My heart beats for coding, and I'm captivated by the world of full-stack development, with a special affinity for the MERN stack. To complement this, I've built a robust foundation in data structures and algorithms. Let's connect and discuss how my skills can contribute to your project or organization!"
 const About = () => {
   return (
     <section id="about" className="about">
@@ -94,16 +87,16 @@ const About = () => {
           >
             <div className="about__content__servicesWrapper__innerContent">
               <div>
-                <FaDev size={60} color="var( --yellow-theme-main-color)" />
+                <DiMongodb size={80} color="var( --yellow-theme-main-color)" />
               </div>
               <div>
-                <DiAndroid size={60} color="var( --yellow-theme-main-color)" />
+                <SiExpress size={80} color="var( --yellow-theme-main-color)" />
               </div>
               <div>
-                <FaDatabase size={60} color="var( --yellow-theme-main-color)" />
+                <FaReact size={80} color="var( --yellow-theme-main-color)" />
               </div>
               <div>
-                <DiApple size={60} color="var( --yellow-theme-main-color)" />
+                <FaNode size={80} color="var( --yellow-theme-main-color)" />
               </div>
             </div>
           </Animate>

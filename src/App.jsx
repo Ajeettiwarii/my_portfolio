@@ -1,4 +1,5 @@
 import './App.scss'   
+import './App.css'   
 import  Particles from  "react-tsparticles"  ; 
 import {loadFull} from "tsparticles";
 import {Routes,Route,useLocation} from 'react-router-dom'

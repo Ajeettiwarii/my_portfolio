@@ -44,6 +44,10 @@
           &:hover .overlay{
               opacity: 1;
               scale:1.05;
+              a{
+                text-decoration: none;
+                color: #000;
+              }
           }
   
           &__img-wrapper {

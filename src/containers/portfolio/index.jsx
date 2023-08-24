@@ -2,10 +2,10 @@ import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
 import ImageOne from "../../images/image1.jpg";
- import ImageTwo from "../../images/image2.jpg";
+import ImageTwo from "../../images/image2.jpg";
 import ImageThree from "../../images/image3.jpg";
- import ImageFour from "../../images/image4.jpg";
- import ImageFive from "../../images/image5.jpg";
+import ImageFour from "../../images/image4.jpg";
+import ImageFive from "../../images/image5.jpg";
 import "./styles.scss";
 import { useState } from "react";
 
@@ -14,32 +14,31 @@ const portfolioData = [
     id: 2,
     name: "File Sharing",
     image: ImageOne,
-    link: "",
+    link: "https://file-sharing-app-fe.onrender.com/",
   },
   {
     id: 2,
     name: "Ecommerce",
-    link: "",
+    link: "https://github.com/Ajeettiwarii/karLo-Shop",
     image: ImageTwo,
   },
   {
     id: 3,
     name: "Calculator",
     image: ImageThree,
-    link: "",
+    link: "https://github.com/Ajeettiwarii/Calculator",
   },
   {
     id: 3,
     name: "Educlub",
     image: ImageFour,
-
-    link: "",
+    link: "https://github.com/Ajeettiwarii/Educlub",
   },
   {
     id: 2,
     name: "Blog App",
     image: ImageFive,
-    link: "",
+    link: "https://github.com/Ajeettiwarii/Blog-App",
   },
 ];
 
@@ -116,7 +115,13 @@ const Portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Visit</button>
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button>Visit</button>
+                    </a>
                   </div>
                 )}
               </div>

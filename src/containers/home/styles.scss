@@ -5,7 +5,9 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-
+  a {
+    color: var(--yellow-theme-main-color);
+  }
   &__text-wrapper {
     display: flex;
     justify-content: center;
@@ -40,7 +42,13 @@
       &:hover {
         background: var(--yellow-theme-main-color);
         color: #000000;
+        a {
+          color: #000000;
+        }
       }
+    }
+    &_link {
+      text-decoration: none;
     }
   }
   &_icons {
@@ -51,22 +59,15 @@
     gap: 1rem;
     //  background-color: aliceblue;
     justify-content: center;
-    &_icon{
+    &_icon {
       color: var(--yellow-theme-main-color);
     }
     &_icon:hover {
       cursor: pointer;
       // background: var(--yellow-theme-main-color);
-        // color: #000000;
-        scale: 1.2;
-        // background-color: var(--yellow-theme-main-color);
-    }
-  }
-  &__contact-me_link{
-    text-decoration: none;
-    color: var(--yellow-theme-main-color);
-    &:hover{
-      color: black;
+      // color: #000000;
+      scale: 1.2;
+      // background-color: var(--yellow-theme-main-color);
     }
   }
 }

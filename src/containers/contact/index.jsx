@@ -73,7 +73,9 @@ const Contact = () => {
                 </label>
               </div>
             </div>
-            <button>Submit</button>
+            <a href="mailto:ajeet21.tiwari@gmail.com">
+              <button>Submit</button>
+            </a>
           </div>
         </Animate>
       </div>

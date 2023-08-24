@@ -15,11 +15,11 @@ export const data = {
       // subTitle: "Aug-2023",
       description: "Introduction to Cybersecurity",
     }, 
-    {
-      title: "Certified From Udemy,",
-      // subTitle: "Aug-2023",
-      description: "Completetion of Frontend Devlopment",
-    },
+    // {
+    //   title: "Certified From Udemy,",
+    //   // subTitle: "Aug-2023",
+    //   description: "Completetion of Frontend Devlopment",
+    // },
   ],
   education: [
     {
