@@ -6,6 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   const navigate = useNavigate();
+  const AnimatedName = ['A','j','e','e','t']
 
   const handleNavigateToContactMePage = () => {
     navigate("/contact");
@@ -15,7 +16,11 @@ const Home = () => {
     <section id="home" className="home">
       <div className="home__text-wrapper">
         <h1>
-          Hello, I'm Ajeet
+          Hello, I'm {AnimatedName.map((letter)=>{
+            return(
+              <span>{letter}</span>
+            )
+          })}
           <br />
           Full Stack developer
         </h1>

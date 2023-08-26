@@ -39,9 +39,10 @@
         display: flex;
         list-style: none;
         text-align: center;
+        margin-right: 3rem;
         &__item {
           line-height: 40px;
-          margin-right: 1.5rem;
+          margin-right: 1rem;
           font-size: 1.6rem;
           &::after {
             content: "";
